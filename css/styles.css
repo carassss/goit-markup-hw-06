@@ -262,7 +262,7 @@ input {
 	gap: 24px;
 }
 
-.team-soc-item {
+.team-soc-link {
 	background-color: #4d5ae5;
 	border-radius: 50px;
 	width: 40px;
@@ -383,7 +383,7 @@ input {
 	gap: 16px;
 }
 
-.footer-soc-item {
+.footer-soc-link {
 	background-color: #4d5ae5;
 	border-radius: 50px;
 	width: 40px;
