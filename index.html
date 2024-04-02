@@ -30,7 +30,7 @@
 							<use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
 						</svg>
 					</button>
-					<ul class="nav-link">
+					<ul class="nav-link-list">
 						<li>
 							<a class="nav-link" href="./index.html">Studio</a>
 						</li>
@@ -80,9 +80,9 @@
 								</svg>
 							</div>
 							<h3 class="features-list-heading">Strategy</h3>
-							<p class="features-text">
-								Our goal is to identify the business problem to walk away with
-								the perfect and creative solution.
+							<p class="features-text mb-text">
+								Our goal is to identify the business<br />problem to walk away
+								with the perfect and creative solution.
 							</p>
 						</li>
 						<li class="features-list-item">
@@ -92,7 +92,7 @@
 								</svg>
 							</div>
 							<h3 class="features-list-heading">Punctuality</h3>
-							<p class="features-text">
+							<p class="features-text mb-text">
 								Bring the key message to the brand's audience for the best price
 								within the shortest possible time.
 							</p>
@@ -235,7 +235,7 @@
 						</li>
 						<!-- Camila Garcia card -->
 
-						<li class="team-card-item">
+						<li class="team-card-item mb-card">
 							<div class="team-img-container">
 								<img
 									srcset="
@@ -288,7 +288,7 @@
 						</li>
 						<!-- Daniel Wilson card -->
 
-						<li class="team-card-item">
+						<li class="team-card-item mb-card">
 							<div class="team-img-container">
 								<img
 									srcset="
@@ -355,10 +355,20 @@
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/bankingapp.jpg 1x"
+										srcset="
+											./images/bankingapp.jpg   1x,
+											./images/bankingapp2x.jpg 2x
+										"
 										media="(min-width: 1440px)"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/bankingapptab.jpg   1x,
+											./images/bankingapptab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
@@ -393,10 +403,20 @@
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/cashlesspayment.jpg 1x"
+										srcset="
+											./images/cashlesspayment.jpg   1x,
+											./images/cashlesspayment2x.jpg 2x
+										"
 										media="(min-width: 1440px)"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/cashlesspaymenttb.jpg    1x,
+											./images/cashlesspaymenttab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
@@ -431,10 +451,20 @@
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/meditationapp.jpg 1x"
+										srcset="
+											./images/meditationapp.jpg   1x,
+											./images/meditationapp2x.jpg 2x
+										"
 										media="(min-width: 1440px)"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/meditationapptab.jpg   1x,
+											./images/meditationapptab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
@@ -469,10 +499,20 @@
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/taxiservice.jpg 1x"
+										srcset="
+											./images/taxiservice.jpg   1x,
+											./images/taxiservice2x.jpg 2x
+										"
 										media="(min-width: 1440px)"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/taxiservicetab.jpg   1x,
+											./images/taxiservicetab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
@@ -503,15 +543,25 @@
 						</li>
 						<!-- PROJECT 5 -->
 
-						<li class="portfolio-project-item">
+						<li class="portfolio-project-item mb-pro">
 							<div class="project-img-container">
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/screenillustrations.jpg"
+										srcset="
+											./images/screenillustrations.jpg   1x,
+											./images/screenillustrations2x.jpg 2x
+										"
 										media="(min-width: 1440px)"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/screenillustrationstab.jpg   1x,
+											./images/screenillustrationstab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
@@ -541,15 +591,25 @@
 						</li>
 						<!-- PROJECT 6 -->
 
-						<li class="portfolio-project-item">
+						<li class="portfolio-project-item mb-pro">
 							<div class="project-img-container">
 								<picture>
 									<source
 										class="portfolio-project-img"
-										srcset="./images/onlinecourses.jpg 1x"
+										srcset="
+											./images/onlinecourses.jpg   1x,
+											./images/onlinecourses2x.jpg 2x
+										"
 										media="1440px"
 									/>
-									<source class="portfolio-project-img" srcset="" />
+									<source
+										class="portfolio-project-img"
+										srcset="
+											./images/onlinecoursestab.jpg   1x,
+											./images/onlinecoursestab2x.jpg 2x
+										"
+										media="(min-width: 768px)"
+									/>
 									<source
 										class="portfolio-project-img"
 										srcset="
