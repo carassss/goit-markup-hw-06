@@ -112,7 +112,7 @@ input {
 		),
 		url(../images/peopleofficemob.jpg);
 	background-repeat: no-repeat;
-	padding: 72px 75px 72px 75px;
+	padding: 72px 0;
 	background-size: cover;
 }
 
@@ -147,7 +147,7 @@ input {
 	border: none;
 	cursor: pointer;
 	margin: 0 auto;
-	padding: 16px 32px;
+	padding: 16px 0;
 	border-radius: 4px;
 	min-width: 169px;
 	height: 56px;
@@ -184,8 +184,6 @@ input {
 .features {
 	padding-top: 96px;
 	padding-bottom: 96px;
-	padding-left: 16px;
-	padding-right: 16px;
 }
 
 .features-list-heading {
@@ -216,7 +214,7 @@ input {
 
 .team {
 	background-color: #f4f4fd;
-	padding: 96px 28px;
+	padding: 96px 0;
 }
 
 .team-heading {
@@ -235,17 +233,13 @@ input {
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 		0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 	border-radius: 0 0 4px 4px;
-	padding-bottom: 32px;
+	/* margin: 0 auto;
 	margin-bottom: 72px;
-	max-width: 264px;
+	max-width: 264px; */
 }
 
 .team-card-item:last-child {
 	margin-bottom: 0;
-}
-
-.team-img-container {
-	padding-bottom: 32px;
 }
 
 .team-card-heading {
@@ -256,6 +250,11 @@ input {
 	text-align: center;
 	color: #2e2f42;
 	margin-bottom: 8px;
+}
+
+.team-text-container {
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .team-card-text {
@@ -315,6 +314,7 @@ input {
 	border-right: 1px solid #e7e9fc;
 	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 		0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+	margin: 0 auto;
 	margin-bottom: 48px;
 	max-width: 288px;
 	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -473,6 +473,8 @@ input {
 	padding: 8px 16px;
 	border: 1px solid #fff;
 	border-radius: 4px;
+	margin: 0 auto;
+	display: block;
 }
 
 .footer-form-input::placeholder {
@@ -489,7 +491,7 @@ input {
 	align-items: center;
 	justify-content: center;
 	gap: 16px;
-	padding: 8px 24px;
+	padding: 8px 0;
 	min-width: 165px;
 	height: 40px;
 	border-radius: 4px;
@@ -831,7 +833,7 @@ input {
 .modal-btn {
 	margin: 0 auto;
 	border-radius: 4px;
-	padding: 16px 32px;
+	padding: 16px 0;
 	width: 169px;
 	height: 56px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -916,12 +918,12 @@ input {
 		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
-	.nav-studio:focus {
+	.nav-studio {
 		position: relative;
 		color: #404bbf;
 	}
 
-	.nav-studio:focus:after {
+	.nav-studio::after {
 		position: absolute;
 		left: 0px;
 		top: 41.5px;
@@ -945,7 +947,7 @@ input {
 			),
 			url(../images/peopleofficetab.jpg);
 
-		padding: 112px 136px;
+		padding: 112px 0;
 	}
 
 	@media (min-resolution: 192dpi) {
@@ -976,7 +978,7 @@ input {
 		flex-direction: row;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 24px;
+		gap: 72px 24px;
 	}
 
 	.features-list-heading {
@@ -988,26 +990,20 @@ input {
 		max-width: 356px;
 	}
 
-	.mb-text {
-		margin-bottom: 72px;
-	}
-
 	/* SECTION 3 (TEAM) */
 
 	.team {
-		padding-left: 108px;
-		padding-right: 108px;
 	}
 
 	.team-card-list {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 24px;
+		justify-content: center;
+		gap: 72px 24px;
 	}
 
 	.team-card-item {
-		margin-bottom: 40px;
 		max-width: 264px;
 	}
 
@@ -1046,15 +1042,14 @@ input {
 	/* PAGE FOOTER */
 
 	.footer {
-		padding-bottom: 96px;
-		padding-left: 108px;
-		padding-right: 164px;
 	}
 
 	.footer-container {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 72px 24px;
+		margin: 0 auto;
+		max-width: 530px;
 	}
 
 	.footer-logo {
@@ -1063,6 +1058,11 @@ input {
 
 	.footer-logo-container {
 		max-width: 264px;
+		margin-bottom: 0;
+	}
+
+	.footer-soc-container {
+		margin-bottom: 0;
 	}
 
 	.footer-soc-heading {
@@ -1211,7 +1211,7 @@ input {
 			),
 			url(../images/peopleoffice.jpg);
 
-		padding: 188px 472px;
+		padding: 188px 0;
 	}
 
 	@media (min-resolution: 192dpi) {
@@ -1235,7 +1235,7 @@ input {
 	/* SECTION 2 (FEATURES) */
 
 	.features {
-		padding: 120px 156px;
+		padding: 120px 0;
 	}
 
 	.features-icon-container {
@@ -1269,7 +1269,7 @@ input {
 	/* SECTION 3 (TEAM) */
 
 	.team {
-		padding: 120px 156px;
+		padding: 120px 0;
 	}
 
 	.team-card-list {
@@ -1288,7 +1288,8 @@ input {
 	/* SECTION 4 (PORTFOLIO) */
 
 	.portfolio {
-		padding: 120px 156px 96px 156px;
+		padding-top: 120px;
+		padding-bottom: 96px;
 	}
 
 	.portfolio-project-item {
@@ -1301,10 +1302,6 @@ input {
 	}
 
 	/* PAGE FOOTER */
-
-	.footer {
-		padding: 100px 156px;
-	}
 
 	.footer-container {
 		flex-wrap: nowrap;
